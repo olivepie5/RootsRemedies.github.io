@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roots and Remedies</title>
+    <link rel="icon" type="image/x-icon" href="Roots_and_Remedies_favicon-removebg-preview.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+       h1{
+        font-family:'Inter'; font-size: 28px; 
+       }
+       p{
+            font-family: 'Inter'; font-size: 16px;
+        }
+    </style>
+</head>
+
+<nav style="background-color: #1B3C53;"; class="menu">
+    <style>
+    .menu {display: flex; padding: 14px; justify-content: space-between; align-items: center;font-family: 'Inter'; font-size: 14px;}
+        a:link {
+            color: azure;
+            text-decoration: none;
+        }
+        a:visited {
+            color: azure;
+            text-decoration: none;
+        }
+        a:active {
+            color: azure;
+            text-decoration: none;
+        }
+        a:hover {
+            color:azure;
+            text-decoration: underline;
+        }
+        .glossary-list,
+        .glossary-list a:link,
+        .glossary-list a:visited,
+        .glossary-list a:active {
+            color: black;
+        }
+        .glossary-list {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+        }
+        .glossary-list a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+    
+    </style>
+        <a href="index.html";>Home</a>
+        <a href="Glossary.html";>Glossary</a>
+        <a href="Categories.html";>Categories</a>
+        <a href="About.html";>About</a> 
+
+
+</nav>
+
+<body>
+<h1 style="color: rgb(0, 0, 0); text-align:start; background-color: #FAFAFA;">Glossary</h1>
+<style>
+    .alphabet-filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 24px 0 16px;
+        padding: 0;
+        list-style: none;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .alphabet-filter button {
+        min-width: 36px;
+        padding: 8px 12px;
+        border: 1px solid #1B3C53;
+        border-radius: 999px;
+        background-color: transparent;
+        color: #1B3C53;
+        font: inherit;
+        cursor: pointer;
+    }
+
+    .alphabet-filter button:hover,
+    .alphabet-filter button.active {
+        background-color: #1B3C53;
+        color: white;
+    }
+</style>
+
+<div class="container-group">
+  <h2 style="font-size: 18px;">A-Z filter</h2>
+    <ul class="alphabet-filter" aria-label="Filter glossary terms by letter">
+        <li><button type="button" class="active" onclick="filterTerms('all', this)">All</button></li>
+        <li><button type="button" onclick="filterTerms('a', this)">A</button></li>
+        <li><button type="button" onclick="filterTerms('b', this)">B</button></li>
+        <li><button type="button" onclick="filterTerms('c', this)">C</button></li>
+        <li><button type="button" onclick="filterTerms('d', this)">D</button></li>
+        <li><button type="button" onclick="filterTerms('e', this)">E</button></li>
+        <li><button type="button" onclick="filterTerms('f', this)">F</button></li>
+        <li><button type="button" onclick="filterTerms('g', this)">G</button></li>
+        <li><button type="button" onclick="filterTerms('h', this)">H</button></li>
+        <li><button type="button" onclick="filterTerms('i', this)">I</button></li>
+        <li><button type="button" onclick="filterTerms('j', this)">J</button></li>
+        <li><button type="button" onclick="filterTerms('k', this)">K</button></li>
+        <li><button type="button" onclick="filterTerms('l', this)">L</button></li>
+        <li><button type="button" onclick="filterTerms('m', this)">M</button></li>
+        <li><button type="button" onclick="filterTerms('n', this)">N</button></li>
+        <li><button type="button" onclick="filterTerms('o', this)">O</button></li>
+        <li><button type="button" onclick="filterTerms('p', this)">P</button></li>
+        <li><button type="button" onclick="filterTerms('q', this)">Q</button></li>
+        <li><button type="button" onclick="filterTerms('r', this)">R</button></li>
+        <li><button type="button" onclick="filterTerms('s', this)">S</button></li>
+        <li><button type="button" onclick="filterTerms('t', this)">T</button></li>
+        <li><button type="button" onclick="filterTerms('u', this)">U</button></li>
+        <li><button type="button" onclick="filterTerms('v', this)">V</button></li>
+        <li><button type="button" onclick="filterTerms('w', this)">W</button></li>
+        <li><button type="button" onclick="filterTerms('x', this)">X</button></li>
+        <li><button type="button" onclick="filterTerms('y', this)">Y</button></li>
+        <li><button type="button" onclick="filterTerms('z', this)">Z</button></li>
+  </ul>
+</div>
+
+    <ul class="glossary-list">
+    <li><a href="Term4.html">Artery</a></li>
+    <li><a href="Term5.html">Atrium</a></li>
+    <li><a href="Term3.html">Brachium</a></li> 
+    <li><a href="Term7.html">Capillary</a></li>
+    <li><a href="Term25.html">Cerebrum</a></li>
+    <li><a href="Term8.html">Clavicle</a></li>
+    <li><a href="Term44.html">Ear</a></li>
+    <li><a href="Term9.html">Eye</a></li>
+    <li><a href="Term14.html">Muscle</a></li>
+    <li><a href="Term15.html">Pelvis</a></li>
+    <li><a href="Term17.html">Pulse</a></li>
+    <li><a href="Term18.html">Rectum</a></li>
+    <li><a href="Term20.html">Tubercle</a></li>
+    <li><a href="Term22.html">Vein</a></li>
+  
+    <li><a href="Term61.html">Above</a></li>
+    <li><a href="Term63.html">Across</a></li>
+    <li><a href="Term54.html">After</a></li>
+    <li><a href="Term35.html">Around</a></li>
+    <li><a href="Term26.html">Away</a></li>
+    <li><a href="Term55.html">Before</a></li>
+    <li><a href="Term31.html">Between</a></li>
+    <li><a href="Term28.html">Towards</a></li>
+    <li><a href="Term60.html">Under</a></li>
+
+    <li><a href="Term48.html">Bad</a></li>
+    <li><a href="Term47.html">Big</a></li>
+    <li><a href="Term49.html">Biggest</a></li>
+    <li><a href="Term45.html">Broad</a></li>
+    <li><a href="Term51.html">Dead</a></li>
+    <li><a href="Term56.html">Deceptive</a></li>
+    <li><a href="Term39.html">Double</a></li>
+    <li><a href="Term46.html">Enlarged</a></li>
+    <li><a href="Term41.html">Equal</a></li>
+    <li><a href="Term43.html">Excessive</a></li>
+    <li><a href="Term53.html">Flat</a></li>
+    <li><a href="Term30.html">Good</a></li>
+    <li><a href="Term34.html">Hollow</a></li>
+    <li><a href="Term29.html">Narrow</a></li>
+    <li><a href="Term37.html">Separate</a></li>
+    <li><a href="Term27.html">Sharp</a></li>
+    <li><a href="Term33.html">Short</a></li>
+    <li><a href="Term50.html">Small</a></li>
+    <li><a href="Term59.html">Smallest</a></li>
+    <li><a href="Term62.html">Whole</a></li>
+
+    <li><a href="Term66.html">Bursa</a></li>
+    <li><a href="Term65.html">Fatty tissue</a></li>
+    <li><a href="Term57.html">Half</a></li>
+    <li><a href="Term13.html">Jugular</a></li>
+    <li><a href="Term58.html">Left</a></li>
+    <li><a href="Term68.html">Lumbar</a></li>
+    <li><a href="Term71.html">Net</a></li>
+    <li><a href="Term16.html">Pulmonary</a></li>
+    <li><a href="Term19.html">Renal</a></li>
+    <li><a href="Term70.html">Root</a></li>
+    <li><a href="Term21.html">Vascular</a></li>
+
+    <li><a href="Term72.html">Break</a></li>
+    <li><a href="Term69.html">Little</a></li>
+    <li><a href="Term73.html">Pressure</a></li>
+    <li><a href="Term67.html">Structure</a></li>
+    <li><a href="Term74.html">Twisted</a></li>
+
+    <li><a href="Term1.html">Adrenal</a></li>
+    <li><a href="Term2.html">Appendix</a></li>
+    <li><a href="Term6.html">Bicep</a></li>
+    <li><a href="Term11.html">Intercostal</a></li>
+    <li><a href="Term12.html">Interosseous</a></li>
+    <li><a href="Term23.html">Vena Cava</a></li>
+
+    <li><a href="Term52.html">Many</a></li>
+    <li><a href="Term32.html">Twice</a></li>
+
+
+</ul>
+<script>
+    function filterTerms(letter, buttonClicked) {
+        var buttons = document.querySelectorAll('.alphabet-filter button');
+        var terms = document.querySelectorAll('.glossary-list li');
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('active');
+        }
+        buttonClicked.classList.add('active');
+
+        for (var i = 0; i < terms.length; i++) {
+            var firstLetter = terms[i].textContent.trim().toLowerCase().charAt(0);
+
+            if (letter == 'all' || firstLetter == letter) {
+                terms[i].style.display = 'list-item';
+            } else {
+                terms[i].style.display = 'none';
+            }
+        }
+    }
+</script>
+</body>
+<footer>
+    <hr>
+    <p style="font-family: 'Inter'; font-size: 14px;">Roots and Remedies</p>
+</footer>

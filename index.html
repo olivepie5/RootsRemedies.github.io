@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roots and Remedies</title>
+    <link rel="icon" type="image/x-icon" href="Roots_and_Remedies_favicon-removebg-preview.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+       h1{
+        font-family:'Inter'; font-size: 28px; 
+       }
+       p1{
+            font-family: 'Inter'; font-size: 14px;
+        }
+    </style>
+</head>
+
+<nav style="background-color: #1B3C53;"; class="menu">
+    <style>
+    .menu {display: flex; padding: 14px; justify-content: space-between; align-items: center;font-family: 'Inter'; font-size: 14px;}
+        .menu a:link {
+            color: rgb(240, 255, 255);
+            text-decoration: none;
+        }
+        .menu a:visited {
+            color: azure;
+            text-decoration: none;
+        }
+        .menu a:active {
+            color: azure;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            color:azure;
+            text-decoration: underline;
+        }
+        body a:link,
+        body a:visited,
+        body a:active {
+            color: black;
+        }
+        body a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+    
+    </style>
+        <a href="index.html";>Home</a>
+        <a href="Glossary.html";>Glossary</a>
+        <a href="Categories.html";>Categories</a>
+        <a href="About.html";>About</a> 
+
+
+</nav>
+
+<header>
+    <h1 style="color: rgb(0, 0, 0); text-align:start;">Roots and Remedies</h1>
+</header>
+<body style="background-color: #FAFAFA;">
+    
+    <p1>This is a website designed to help A Level biology students find out the Latin roots of biological terms.</p1>
+    <br>
+    <br>
+    
+<style>
+    .glsrybutn {
+    background-color: #1B3C53;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    }
+</style>
+<a href="Glossary.html";><button class="glsrybutn">Explore the Glossary</button></a>
+
+
+<style>
+search { 
+  display: block;
+}
+</style>
+
+<p style="font-family: 'Inter'; font-size: 14px;">Or... Search here!</p> 
+
+<search>
+    <form onsubmit="openPage(event)">
+    <div class="search-container">
+            <input type="search" id="search" placeholder="Search a term..." aria-label="Search a term">
+            <button type="submit">Search</button>
+    </div>
+  </form>
+  <script>
+        const pages = {
+            adrenal: "Term1.html",
+            appendix: "Term2.html",
+            brachium: "Term3.html",
+            artery: "Term4.html",
+            atrium: "Term5.html",
+            bicep: "Term6.html",
+            capillary: "Term7.html",
+            clavicle: "Term8.html",
+            eye: "Term9.html",
+            intercostal: "Term11.html",
+            interosseous: "Term12.html",
+            jugular: "Term13.html",
+            muscle: "Term14.html",
+            pelvis: "Term15.html",
+            pulmonary: "Term16.html",
+            pulse: "Term17.html",
+            rectum: "Term18.html",
+            renal: "Term19.html",
+            tubercle: "Term20.html",
+            vascular: "Term21.html",
+            vein: "Term22.html",
+            "vena cava": "Term23.html",
+            cerebrum: "Term25.html",
+            away: "Term26.html",
+            sharp: "Term27.html",
+            towards: "Term28.html",
+            narrow: "Term29.html",
+            good: "Term30.html",
+            between: "Term31.html",
+            twice: "Term32.html",
+            short: "Term33.html",
+            hollow: "Term34.html",
+            around: "Term35.html",
+            separate: "Term37.html",
+            double: "Term39.html",
+            equal: "Term41.html",
+            excessive: "Term43.html",
+            ear: "Term44.html",
+            broad: "Term45.html",
+            enlarged: "Term46.html",
+            big: "Term47.html",
+            bad: "Term48.html",
+            biggest: "Term49.html",
+            small: "Term50.html",
+            dead: "Term51.html",
+            many: "Term52.html",
+            flat: "Term53.html",
+            after: "Term54.html",
+            before: "Term55.html",
+            deceptive: "Term56.html",
+            half: "Term57.html",
+            left: "Term58.html",
+            smallest: "Term59.html",
+            under: "Term60.html",
+            above: "Term61.html",
+            whole: "Term62.html",
+            across: "Term63.html",
+            "fatty tissue": "Term65.html",
+            bursa: "Term66.html",
+            structure: "Term67.html",
+            lumbar: "Term68.html",
+            little: "Term69.html",
+            root: "Term70.html",
+            net: "Term71.html",
+            break: "Term72.html",
+            pressure: "Term73.html",
+            twisted: "Term74.html"
+        };
+
+        function openPage(event) {
+            event.preventDefault();
+            var searchTerm = document.getElementById("search").value.trim().toLowerCase();
+      if (pages[searchTerm]) {
+        window.location.href = pages[searchTerm];
+      } else {
+        alert("No page found for the search term: '" + searchTerm + "'");
+      }
+    }
+  </script>
+</search>
+<br>
+
+
+<p2 style="font-family: 'Inter'; font-size: 14px;">Example searches:
+    <ul>
+        <style>
+            a:link {
+                color: black;
+                text-decoration: none;
+            }
+            a:hover {
+                color: black;
+                text-decoration: underline;}
+        </style>
+        <li><a href="Term1.html">Adrenal</a></li>
+        <li><a href="Term9.html">Eye</a></li>
+        <li><a href="Term15.html">Pelvis</a></li>
+        <li><a href="Term30.html">Good</a></li>
+    
+    </ul>
+</p2>
+
+<h2 style="font-family: 'Inter'; font-size: 22px;">Featured Categories</h2>
+<ul>
+    <li style="font-family: 'Inter'; font-size: 16px;"><a href="Prefixes.html">Prefixes</a></li>
+    <li style="font-family: 'Inter'; font-size: 16px;"><a href="Suffixes.html">Suffixes</a></li>
+    <li style="font-family: 'Inter'; font-size: 16px;"><a href="Compoundwords.html">Compound words</a></li>
+</ul>
+  
+
+<footer>
+    <hr>
+    <p style="font-family: 'Inter'; font-size: 14px;">Roots and Remedies</p>
+</footer>
+
+</html>
